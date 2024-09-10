@@ -1,0 +1,19 @@
+{
+	"app_name": "TokTokNa",
+	"app_description": "Tok Tok Order Service",
+	"app_identifier": "com.toktok-na24.app",
+	"ios_app_version": "1.0.0",
+	"android_app_version": "100",
+	"firebaseProjectId": "toktokna-10c14",
+	"googleApiKeys": {
+		"ios": "AIzaSyD1TDZTTVglk8i7nJMGr5l-2pHTU-1w7R0",
+		"android": "AIzaSyD1TDZTTVglk8i7nJMGr5l-2pHTU-1w7R0",
+		"web": "AIzaSyD1TDZTTVglk8i7nJMGr5l-2pHTU-1w7R0",
+		"server": "AIzaSyD1TDZTTVglk8i7nJMGr5l-2pHTU-1w7R0"
+	},
+	"expo_owner": "hareedy",
+	"expo_slug": "toktokna",
+	"expo_project_id": "f2ac84e1-339b-4554-87ed-c7a60225223e",
+	"admin_email": "toktok.na24@gmail.com",
+	"purchase_code": "xxxxxxxxxx"
+}

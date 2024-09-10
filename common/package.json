@@ -1,0 +1,25 @@
+{
+  "name": "common",
+  "version": "1.0.0",
+  "description": "Common Packages",
+  "private": true,
+  "main": "src/index.js",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.0",
+    "axios": "1.7.7",
+    "braintree": "3.24.0",
+    "firebase": "^10.13.1",
+    "firebase-tools": "13.16.0",
+    "material-table": "1.63.0",
+    "mercadopago": "2.0.15",
+    "moment": "2.30.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native-base64": "^0.2.1",
+    "react-native-vector-icons": "9.2.0",
+    "react-scripts": "^3.0.1",
+    "redux-thunk": "2.4.2",
+    "square": "38.0.0",
+    "xml2json": "0.7.1"
+  }
+}

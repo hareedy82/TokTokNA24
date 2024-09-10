@@ -1,0 +1,53 @@
+{
+  "name": "exicubeapps",
+  "version": "4.4.0",
+  "description": "Exicube App Solutions",
+  "scripts": {
+    "app": "yarn workspace mobile-app start",
+    "app:publish": "cd mobile-app && eas update",
+    "app:build-ios": "cd mobile-app && eas build --platform ios --profile production",
+    "app:build-android": "cd mobile-app && eas build --platform android --profile production",
+    "app:build-android-apk": "cd mobile-app && eas build --platform android --profile preview",
+    "app:build-ios-sim": "cd mobile-app && eas build -p ios --profile simulator",
+    "app:build-dev-client": "cd mobile-app && eas build --profile development",
+    "app:submit": "cd mobile-app && eas submit",
+    "web": "yarn workspace web-app start",
+    "web:deploy": "yarn workspace web-app build && firebase deploy --only hosting",
+    "deploy": "yarn workspace web-app build && firebase deploy && exicube initialize",
+    "postinstall": "patch-package && exicube install"
+  },
+  "workspaces": [
+    "mobile-app",
+    "web-app",
+    "functions",
+    "common"
+  ],
+  "author": "Exicube App Solutions (OPC) Private Limited",
+  "private": true,
+  "dependencies": {
+    "axios": "1.7.7",
+    "braintree": "3.24.0",
+    "concurrently": "7.0.0",
+    "config": "^3.3.12",
+    "crypto-js": "^4.1.1",
+    "exicube-cli": "^1.0.2",
+    "firebase": "10.13.1",
+    "firebase-tools": "^13.16.0",
+    "fs-extra": "10.0.0",
+    "material-table": "1.63.0",
+    "mercadopago": "2.0.15",
+    "moment": "2.30.1",
+    "node-fetch": "2.6.7",
+    "open": "^8.4.0",
+    "patch-package": "6.4.7",
+    "react-native-vector-icons": "9.2.0",
+    "react-scripts": "^3.0.1",
+    "square": "38.0.0",
+    "xml2json": "^0.7.1"
+  },
+  "resolutions": {
+    "@expo/config-plugins": "8.0.8",
+    "react-native-safe-area-context": "4.10.5",
+    "@babel/core": "^7.20.0"
+  }
+}
