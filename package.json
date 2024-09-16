@@ -41,7 +41,7 @@
     "open": "^8.4.0",
     "patch-package": "6.4.7",
     "react-native-vector-icons": "9.2.0",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "square": "38.0.0",
     "xml2json": "^0.7.1"
   },
